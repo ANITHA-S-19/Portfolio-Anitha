@@ -1,0 +1,121 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header {
+    background-color: #003366; /* Dark Blue */
+    color: #fff;
+    padding: 1rem;
+    text-align: center;
+}
+
+.header-container {
+    display: flex;
+    justify-content: space-between; /* This places the logo on the left and the images on the right */
+    align-items: center; /* Vertically centers the content */
+    width: 100%; /* Make sure the container spans full width */
+}
+
+.logo-container {
+    display: flex;
+    align-items: center; /* Vertically centers the logo */
+}
+
+.college-logo {
+    max-height: 250px; /* Adjust the size of the SKCET logo */
+    max-width: 300px; /* Ensure the SKCET logo doesn't stretch too wide */
+}
+.additional-images-container {
+    display: flex;
+    gap: 20px; /* Adds space between the additional images */
+}
+
+.additional-image {
+    max-height: 250px; /* Adjust the size of the additional images */
+    max-width: 300px; /* Ensure additional images don't stretch too wide */
+}
+
+header .header-content {
+    text-align: center;
+}
+
+.personal-info h1 {
+    font-size: 2rem;
+}
+
+.personal-info p {
+    font-size: 1.2rem;
+}
+
+section {
+    padding: 2rem;
+    margin: 1rem 0;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    color: #003366; /* Dark Blue for headers */
+    margin-bottom: 1rem;
+    font-size: 1.8rem;
+}
+
+ul {
+    list-style-type: none;
+}
+
+ul li {
+    margin: 0.5rem 0;
+}
+
+.project {
+    margin-bottom: 1.5rem;
+}
+
+.project h3 {
+    color: #003366;
+}
+
+footer {
+    text-align: center;
+    padding: 1rem;
+    background-color: #003366; /* Dark Blue */
+    color: #fff;
+}
+
+footer p {
+    font-size: 0.9rem;
+}
+
+.coding-list ul {
+    padding-left: 20px;
+    margin-bottom: 1rem;
+}
+
+a {
+    color: #003366; /* Blue link color */
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+#contact p {
+    font-size: 1.1rem;
+    color: #555;
+}
+
+#contact a {
+    font-weight: bold;
+}
